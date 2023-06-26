@@ -9,9 +9,15 @@ body {
   margin: 0;
 }
 
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .card {
-  width: 150px;
-  height: 200px;
+  width: 250px;
+  height: 350px;
   border: 1px solid black;
   border-radius: 5px;
   position: relative;
@@ -26,7 +32,7 @@ body {
 }
 
 .suit {
-  font-size: 29px;
+  font-size: 40px;
   position: absolute;
 }
 
@@ -38,4 +44,8 @@ body {
 .suit-bottom {
   bottom: 10px;
   right: 10px;
+}
+
+.suit-red {
+  color: red;
 }
